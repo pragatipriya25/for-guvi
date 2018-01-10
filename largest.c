@@ -1,3 +1,4 @@
+
 # include<stdio.h>
 void main()
 {
@@ -6,10 +7,9 @@ scanf("%d",&a);
 scanf("%d",&b);
 scanf("%d",&c);
 if(a>b && a>c)
-printf(a);
+printf("%d",a);
 else if(b>a && b>c)
-printf(b);
+printf("%d",b);
 else
-printf(c);
+printf("%d",c);
 }
-
