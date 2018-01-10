@@ -6,10 +6,10 @@ scanf("%d",&a);
 scanf("%d",&b);
 scanf("%d",&c);
 if(a>b && a>c)
-printf("A is largest");
+printf(a);
 else if(b>a && b>c)
-printf("B is largest");
+printf(b);
 else
-printf("C is largest");
+printf(c);
 }
 
