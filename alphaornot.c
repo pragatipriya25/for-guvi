@@ -1,13 +1,12 @@
 # include<stdio.h>
 void main()
 {
-char a;
+char ch;
 printf("enter the character");
-scanf("%s",&a);
-int val= a;
-if(val>=65 && val<=90)
+scanf("%c",&ch);
+if(ch>='a' && ch<='z')
 printf("Alphabet");
-else if(val>=97 && val<=122)
+else if(ch>='A" && ch<='Z')
 printf("Alphabet");
 else
 printf("No");
