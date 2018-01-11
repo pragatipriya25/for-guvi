@@ -7,7 +7,7 @@ void main()
 	printf("enter k");
 	scanf("%d",&k);
 	printf("enter values");
-	for(i=0;i<=n;i++)
+	for(i=0;i<n;i++)
 	{
 	scanf("%d",&a[i]);
 }
