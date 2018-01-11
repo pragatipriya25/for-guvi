@@ -6,18 +6,18 @@ void main()
 	scanf("%d",&n);
 	if(n%400==0)
 	{
-		printf("leap year");
+		printf("Yes");
 	}
 	else if(n%100==0)
 	{
-		printf("not leap year");
+		printf("No");
 	}
 	else if(n%4==0)
 	{
-		printf("leap year");
+		printf("Yes");
 	}
 	else
 	{
-		printf("not leap year");
+		printf("No");
 	}
 }
